@@ -1,138 +1,107 @@
 # EksperSiz Gizlilik Politikası
 
-**Son güncelleme: 24 Eylül 2026**
+**Son güncelleme: 11 Ekim 2026**
 
-EksperSiz (“Uygulama”), araç sahiplerinin araç bilgilerini yönetmesine, araç fotoğrafları üzerinden yapay zekâ destekli hasar analizi gerçekleştirmesine, araç bakım ve muayene süreçlerini takip etmesine ve ilgili hizmetlere erişmesine yardımcı olmak amacıyla sunulmaktadır.
+EksperSiz (“Uygulama”), araçların yönetilmesi, bakım ve muayene takibi, araç fotoğraflarından yapay zekâ destekli hasar değerlendirmesi, rapor ve tutanak oluşturulması, araçlarla ilgili AI asistan hizmeti ve yakındaki otomotiv hizmetlerinin bulunması için sunulur.
 
-Bu Gizlilik Politikası, EksperSiz'i kullandığınızda hangi bilgilerin işlendiğini, bu bilgilerin hangi amaçlarla kullanıldığını ve verilerinizle ilgili haklarınızı açıklamaktadır.
+Bu politika, uygulamanın işleyişinde hangi verilerin, hangi amaçlarla ve hangi hizmet sağlayıcıları aracılığıyla işlenebileceğini açıklar. Kullanılan özelliğe göre işlenen veri türleri değişebilir.
 
-## 1. İşlenen Bilgiler
+## 1. İşlenen kişisel veriler
 
-EksperSiz'in sunduğu özelliklere bağlı olarak aşağıdaki bilgiler işlenebilir:
+### Hesap ve kimlik doğrulama
 
-### Hesap Bilgileri
+- Ad soyad, e-posta adresi ve hesap kimliği.
+- Parola ile girişte kimlik doğrulama bilgileri; parolalar düz metin olarak saklanmaz.
+- Google ile girişte Google tarafından kimlik doğrulama amacıyla sağlanan temel profil bilgileri.
+- Hesap güvenliği, e-posta doğrulaması ve parola sıfırlama için gerekli kayıtlar.
 
-Uygulamaya kayıt olduğunuzda veya giriş yaptığınızda;
+### Araçlar, analizler ve tutanaklar
 
-- E-posta adresi
-- Hesap ve kimlik doğrulama bilgileri
-- Google ile giriş yapılması durumunda Google tarafından kimlik doğrulama amacıyla sağlanan temel hesap bilgileri
+- Kullanıcının kaydettiği araç bilgileri, kilometre, bakım, muayene ve hatırlatma kayıtları.
+- Yüklenen araç fotoğrafları, hasar tespit sonuçları, ilgili raporlar ve tahmini onarım maliyetleri.
+- Kullanıcının oluşturduğu hasar değerlendirme tutanaklarındaki olay tarihi, konumu, açıklamaları ve beyan bilgileri.
+- Kurumsal hesap kullanılıyorsa şirket, üyelik ve yetki bilgileri ile yetkili üyeler arasında paylaşılan şirket araç ve inceleme kayıtları.
 
-işlenebilir.
+Araç fotoğrafları analiz için uygulama sunucusuna yüklenebilir, yapay zekâ/ML analiz altyapısında işlenebilir ve inceleme geçmişinin sağlanması için saklanabilir. Fotoğraflarda kişileri, plakaları veya konumla ilişkili ayrıntıları içeren bilgiler bulunabileceğinden yüklemeden önce görüntüyü kontrol etmenizi öneririz.
 
-Parolalar güvenli kimlik doğrulama mekanizmaları kullanılarak işlenir ve düz metin olarak saklanmaz.
+### AI asistan
 
-### Araç ve İnceleme Bilgileri
+AI asistana yazdığınız sorular, sağladığınız konuşma bağlamı ve seçtiğiniz araca ait gerekli bilgiler, soruyu anlamak ve yanıt üretmek için işlenebilir. Kullanıcı izin ve yetkileri kapsamında, istenen yanıt için gerekli araç, bakım, hatırlatma veya hasar kayıtlarından sınırlı bilgiler AI yanıt üretim sürecine dahil edilebilir.
 
-Uygulamanın temel işlevlerinin sağlanabilmesi amacıyla kullanıcı tarafından girilen;
+AI asistan işlemlerinde uygulama sunucuları, ilgili AI analiz altyapısı ve Google Gemini gibi harici yapay zekâ hizmetleri kullanılabilir. Gereksiz kişisel veya hassas bilgileri AI asistan mesajlarına yazmamanızı öneririz.
 
-- Araç bilgileri
-- Araç muayene ve takip bilgileri
-- Hasar inceleme kayıtları
-- Analiz sonuçları
+### Konum ve harita
 
-işlenebilir ve saklanabilir.
+Yakındaki servisleri ve harita işlevlerini kullanırken cihazın yaklaşık veya hassas konumuna erişim izni istenebilir. Konum, yakındaki hizmetleri aramak ve harita sonuçlarını göstermek için ilgili harita/hizmet sağlayıcılarına iletilebilir. İzinleri cihaz ayarlarından değiştirebilirsiniz.
 
-### Fotoğraflar
+Tutanak oluştururken kullanıcının girdiği olay konumu ayrıca tutanak kaydının bir parçası olarak saklanabilir.
 
-Kullanıcılar yapay zekâ destekli araç hasar analizi gerçekleştirmek amacıyla araç fotoğrafları yükleyebilir.
+### Mikrofon ve sesli giriş
 
-Yüklenen görüntüler, hasar tespiti ve ilgili analiz sonuçlarının oluşturulması amacıyla işlenir.
+Sesli giriş kullanıldığında cihazın mikrofon izni istenebilir. Konuşmanın yazıya dönüştürülmesi için cihazın veya işletim sisteminin konuşma tanıma hizmeti kullanılabilir; bu hizmetin işleyişine bağlı olarak ses verileri ilgili konuşma tanıma sağlayıcısı tarafından işlenebilir. Yazıya dönüştürülen metin, kullanıcı tarafından AI asistana gönderildiğinde yukarıda açıklanan AI asistan veri işleme sürecine girer. Sesli giriş kullanılmadığında bu özellik için mikrofon erişimine gerek yoktur.
 
-### Konum Bilgileri
+### Bildirimler ve teknik bilgiler
 
-Yakındaki araç servisleri ve harita özellikleri kullanıldığında, cihazınızın konum bilgisine erişim izni istenebilir.
+Hatırlatmalar ve uygulama bildirimleri için cihaz bildirim belirteçleri (push token) ve bildirimle ilişkili kayıtlar işlenebilir. Hizmetin güvenliği, hata ayıklama ve teknik işleyişi için sınırlı bağlantı, istek ve hata kayıtları işlenebilir.
 
-Konum erişimi yalnızca ilgili özelliklerin sağlanması amacıyla ve cihaz izinleri doğrultusunda kullanılır. Konum iznini cihazınızın ayarlarından değiştirebilir veya kaldırabilirsiniz.
+### Abonelik ve satın alma
 
-### Bildirim Bilgileri
+Abonelik planı, ürün kimliği, satın alma işlem kimliği, abonelik durumu, yenileme/bitiş tarihi ve AI kullanım hakları işlenebilir. Satın alma ve abonelik yönetiminde Google Play ve RevenueCat kullanılabilir. EksperSiz kredi kartı veya banka kartı numaralarınızı doğrudan toplamaz veya saklamaz.
 
-EksperSiz, hatırlatmalar ve uygulamayla ilgili bildirimlerin gönderilebilmesi amacıyla cihaz bildirim belirteçlerini (push notification token) işleyebilir.
+## 2. Verilerin kullanım amaçları
 
-### Abonelik Bilgileri
+Veriler yalnızca ilgili hizmetin sunulması ve işletilmesi kapsamında; hesap oluşturma ve güvenliği, araç ve şirket hesaplarının yönetimi, fotoğraf analizi, AI yanıt ve rapor üretimi, tutanak oluşturma, bakım ve muayene hatırlatmaları, yakındaki hizmetlerin gösterimi, abonelik ve kullanım hakkı doğrulaması, müşteri desteği, sistem güvenliği ve yasal yükümlülükler için işlenebilir.
 
-EksperSiz ücretli abonelik seçenekleri sunabilir.
+AI hasar analizi ve onarım maliyeti sonuçları tahmin niteliğindedir; profesyonel veya resmî ekspertiz incelemesinin yerini almaz.
 
-Satın alma ve abonelik işlemleri Google Play ve ilgili abonelik altyapıları üzerinden gerçekleştirilir. EksperSiz kredi veya banka kartı bilgilerinizi doğrudan toplamaz veya saklamaz.
+## 3. Üçüncü taraf hizmetler ve veri aktarımı
 
-Abonelik durumunun doğrulanması ve ücretli özelliklere erişimin yönetilmesi amacıyla satın alma ve abonelik durumuna ilişkin bilgiler işlenebilir.
+İşlevin gerektirdiği ölçüde aşağıdaki hizmetler kullanılabilir:
 
-## 2. Bilgilerin Kullanım Amaçları
+- **Google Sign-In:** Google hesabıyla giriş ve kimlik doğrulama.
+- **Firebase Cloud Messaging:** Cihazlara bildirim gönderimi.
+- **Google Maps / Places:** Harita, konum ve yakındaki işletme aramaları.
+- **Google Gemini:** AI asistan yanıtları ve AI destekli hasar raporları için gerekli içeriklerin işlenmesi.
+- **RevenueCat ve Google Play:** Abonelik, satın alma doğrulaması ve erişim hakları.
+- **Brevo:** Hesap doğrulama ve hesapla ilgili e-posta iletileri.
+- **Railway ve uygulamanın barındırma altyapısı:** Backend, AI servisleri, veritabanı ve dosya işlemleri.
 
-Toplanan veya işlenen bilgiler;
+Kullanılan özelliğe göre veriler bu sağlayıcıların altyapısında, Türkiye dışında bulunan sistemler dahil, işlenebilir. Her sağlayıcının kendi gizlilik koşulları da uygulanabilir. Kişisel verileri satmayız.
 
-- Kullanıcı hesabının oluşturulması ve güvenliğinin sağlanması,
-- Kullanıcının kimliğinin doğrulanması,
-- Araç bilgilerinin ve inceleme kayıtlarının yönetilmesi,
-- Yapay zekâ destekli araç hasar analizlerinin gerçekleştirilmesi,
-- Muayene ve diğer araç hatırlatmalarının sunulması,
-- Harita ve yakındaki hizmet noktalarının gösterilmesi,
-- Bildirimlerin gönderilmesi,
-- Aboneliklerin doğrulanması ve ücretli özelliklerin sunulması,
-- Uygulamanın güvenliğinin, kararlılığının ve performansının korunması
+## 4. Saklama ve güvenlik
 
-amaçlarıyla kullanılabilir.
+Hesap, araç, fotoğraf, analiz, tutanak ve abonelik verileri, ilgili özelliğin sunulması ve gerekli kayıtların yönetilmesi süresince saklanabilir. Kullanıcının sildiği kayıtlar veya silinen hesaba bağlı veriler, teknik işlemler ve geçerli saklama yükümlülükleri çerçevesinde temizlenir.
 
-## 3. Üçüncü Taraf Hizmetler
+Verilerin korunması için erişim kontrolü, kimlik doğrulama ve uygun teknik/organizasyonel güvenlik önlemleri uygulanır. Hiçbir elektronik sistemin mutlak güvenlik garantisi yoktur.
 
-EksperSiz'in bazı özelliklerinin sağlanabilmesi için üçüncü taraf hizmetlerden yararlanılabilir. Bunlar arasında kullanılan özelliğe bağlı olarak:
+## 5. Cihaz izinleri ve kullanıcı tercihleri
 
-- Google Play hizmetleri
-- Firebase
-- Google Sign-In
-- Google Maps Platform
-- RevenueCat
-- Google Gemini hizmetleri
+Uygulama, kullanılan özelliğe göre internet bağlantısı, bildirim, yaklaşık/hassas konum ve sesli giriş için mikrofon izinlerini kullanabilir. Araç fotoğrafı seçme veya çekme işlemlerinde cihazın sağladığı medya seçme/kamera özelliklerinden yararlanılabilir. İzinlerinizi cihaz ayarlarından yönetebilirsiniz; bazı özellikler ilgili izin olmadan çalışmayabilir.
 
-bulunabilir.
+## 6. Verilerin paylaşılması
 
-Bu hizmet sağlayıcıları, hizmetlerini sunabilmek amacıyla kendi gizlilik politikaları ve veri işleme koşulları kapsamında belirli bilgileri işleyebilir.
+Kullanıcı verileri satılmaz. Veriler, hizmetin sunulması için gerekli teknik sağlayıcılarla, kurumsal hesaplarda yetkili üyelerle, kullanıcı tarafından başlatılan paylaşım işlemlerinde seçilen alıcılarla veya hukuken gerekli olduğunda yetkili mercilerle, ilgili amaçla sınırlı olarak paylaşılabilir.
 
-## 4. Verilerin Saklanması ve Güvenliği
+## 7. Hesap ve veri silme
 
-EksperSiz, kullanıcı verilerinin yetkisiz erişim, değiştirme, ifşa veya kayba karşı korunması amacıyla makul teknik ve organizasyonel güvenlik önlemleri uygular.
+Uygulama içinden **Profil → Hesabımı Sil** yolunu izleyerek hesabınızı silme işlemini başlatabilirsiniz. Uygulamaya erişemiyorsanız kayıtlı e-posta adresinizden **ekspersiz123@gmail.com** adresine silme talebi gönderebilirsiniz; hesabın size ait olduğunu doğrulamak için ek bilgi istenebilir.
 
-Veriler, uygulamanın işlevlerinin sağlanması ve gerekli hizmetlerin yürütülmesi için gereken süre boyunca veya yasal yükümlülüklerin gerektirdiği ölçüde saklanabilir.
+Kişisel hesap silindiğinde hesaba bağlı kişisel araçlar, incelemeler ve ilgili uygulama kayıtları silinir; yüklenen fotoğrafların dosya temizliği de gerçekleştirilir. Şirket hesabındaki ortak veriler diğer kullanıcıları etkileyebileceğinden kişisel hesap silme işlemiyle otomatik olarak silinmez. Şirket üyelerinin önce üyeliklerini sonlandırmaları, şirket sahiplerinin ise sahiplik ilişkisini çözmeleri gerekir.
 
-İnternet üzerinden gerçekleştirilen hiçbir veri aktarımı veya elektronik saklama yönteminin tamamen risksiz olmadığı unutulmamalıdır.
+Yasal, güvenlik veya mali yükümlülükler gereği tutulması gereken sınırlı kayıtlar, ilgili gereklilik devam ettiği sürece saklanabilir. Harici hizmet sağlayıcıların kendi saklama ve silme süreçleri ayrıca geçerli olabilir.
 
-## 5. İzinler
+Ayrıntılı bilgi: [EksperSiz Hesap Silme](./account-deletion/).
 
-EksperSiz, kullanılan özelliklere bağlı olarak aşağıdaki cihaz izinlerini talep edebilir:
+## 8. Çocukların gizliliği
 
-- İnternet erişimi
-- Bildirim izni
-- Konum erişimi
-- Kullanıcının seçtiği veya çektiği araç görüntülerine erişim
+EksperSiz çocuklara yönelik tasarlanmamıştır. Bilerek çocuklardan kişisel bilgi toplamayı amaçlamayız.
 
-İzinler yalnızca ilgili uygulama özelliklerinin çalışması amacıyla kullanılır. Cihazınızın işletim sistemi ayarları üzerinden izinleri değiştirebilirsiniz.
+## 9. Politika değişiklikleri
 
-## 6. Verilerin Paylaşılması
-
-Kişisel bilgileriniz satılmaz.
-
-Bilgiler yalnızca uygulamanın çalışması için gerekli hizmet sağlayıcılarıyla, güvenlik veya yasal yükümlülüklerin yerine getirilmesi amacıyla ya da kullanıcının talep ettiği hizmetin sunulabilmesi için gerekli olduğu ölçüde paylaşılabilir.
-
-## 7. Hesap ve Verilerin Silinmesi
-
-Kullanıcılar hesaplarının ve hesaplarıyla ilişkili kişisel verilerin silinmesini talep edebilir.
-
-Silme talepleri için aşağıdaki iletişim adresinden bizimle iletişime geçebilirsiniz.
-
-Google Play politikalarının gerektirdiği durumlarda hesap silme işlemi için uygulama içinden veya ayrıca sağlanan web tabanlı yöntemlerden yararlanılabilir.
-
-## 8. Çocukların Gizliliği
-
-EksperSiz çocuklara yönelik olarak tasarlanmamıştır. Uygulama, bilerek çocuklardan kişisel bilgi toplamayı amaçlamaz.
-
-## 9. Gizlilik Politikasındaki Değişiklikler
-
-Bu Gizlilik Politikası uygulamadaki, kullanılan hizmetlerdeki veya yasal gerekliliklerdeki değişikliklere bağlı olarak güncellenebilir.
-
-Politikanın güncel sürümü bu sayfada yayımlanır ve yukarıdaki “Son güncelleme” tarihi değiştirilir.
+Hizmetlerimiz veya yasal gereklilikler değiştiğinde bu politika güncellenebilir. Güncel sürüm bu sayfada yayımlanır ve son güncelleme tarihi değiştirilir.
 
 ## 10. İletişim
 
-Bu Gizlilik Politikası veya kişisel verilerinizle ilgili sorularınız ve talepleriniz için:
+**EksperSiz — Geliştirici: Görkem Ertaş**
 
 **E-posta:** ekspersiz123@gmail.com
