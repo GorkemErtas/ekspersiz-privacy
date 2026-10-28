@@ -1,8 +1,10 @@
-# EksperSiz – Hesap Silme Talebi
+# EksperSiz – Hesap ve Veri Silme
 
 
 
-EksperSiz hesabınızı ve hesabınızla ilişkili kişisel verilerinizi kalıcı olarak silebilirsiniz.
+**Son güncelleme: 28 Ekim 2026**
+
+EksperSiz hesabınızın ve hesabınızla ilişkili kişisel uygulama kayıtlarının silinmesini isteyebilirsiniz. Veri temizleme süreci ve saklanabilecek sınırlı kayıtlar aşağıda açıklanmıştır.
 
 
 
@@ -20,7 +22,7 @@ EksperSiz hesabınızı ve hesabınızla ilişkili kişisel verilerinizi kalıc�
 
 
 
-İşlem başarıyla tamamlandığında hesabınız ve hesabınıza bağlı kişisel veriler kalıcı olarak silinir.
+İşlem başarıyla tamamlandığında hesabınıza bağlı kişisel araç, inceleme, rapor, tutanak ve ilgili uygulama kayıtlarının silinmesi yürütülür. Sunucudaki fotoğraf dosyalarının temizliği veritabanı silme işleminin ardından gerçekleştirilir. Aşağıda açıklanan sınırlı işlem kayıtları saklanabilir.
 
 
 
@@ -56,11 +58,15 @@ Hesap silme işlemi kapsamında hesabınıza bağlı kişisel veriler ve kişise
 
 
 
-Şirket hesabına ait ortak veriler, başka kullanıcıların veya şirketin kayıtlarını etkileyebileceğinden kişisel hesap silme işleminin parçası olarak silinmez.
+Şirket hesabına ait ortak araçlar, analizler ve diğer veriler, başka kullanıcıları etkileyebileceğinden kişisel hesap silme işlemiyle otomatik olarak silinmez. Şirket üyeliği devam eden kullanıcılar önce üyeliklerinin kaldırılmasını sağlamalı; şirket sahipleri ise sahiplik ilişkilerini çözmelidir.
 
 
 
-Yasal, güvenlik veya mali yükümlülükler nedeniyle saklanması gereken sınırlı kayıtlar, yalnızca gerekli süre boyunca saklanabilir.
+Satın alma/iade mutabakatı, işlemlerin tekrarlanmasını önleme, güvenlik veya yasal/mali yükümlülükler için gerekli sınırlı teknik ve işlem kayıtları hesap silindikten sonra da ilgili gereklilikler ölçüsünde tutulabilir. Harici sağlayıcıların (Google Play, RevenueCat, Google Gemini vb.) kendi saklama/silme süreçleri ayrıca uygulanabilir.
+
+**Google Play aboneliğiniz hesap silme işlemiyle otomatik olarak iptal edilmeyebilir.** Aktif aboneliklerinizi Google Play üzerinden ayrıca yönetmeniz gerekir. Daha önce başka kişilere ilettiğiniz PDF veya indirilen belgeler, alıcıların cihazlarından otomatik silinmez.
+
+Ayrıntılı bilgi için [Gizlilik Politikamızı](../) inceleyebilirsiniz.
 
 
 
