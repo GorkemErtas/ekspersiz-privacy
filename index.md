@@ -124,3 +124,4 @@ Hizmetlerimiz veya yasal gereklilikler değiştiğinde bu politika güncellenebi
 **EksperSiz — Geliştirici ve veri sorumlusu: Görkem Ertaş**
 
 **E-posta:** ekspersiz123@gmail.com
+
