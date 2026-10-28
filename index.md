@@ -24,7 +24,7 @@ Bu politika, uygulamanın işleyişinde hangi verilerin, hangi amaçlarla ve han
 - Kullanıcının oluşturduğu hasar değerlendirme tutanaklarındaki olay tarihi, konumu, açıklamaları ve beyan bilgileri.
 - Kurumsal hesap kullanılıyorsa şirket, üyelik ve yetki bilgileri ile yetkili üyeler arasında paylaşılan şirket araç ve inceleme kayıtları.
 
-Hasar analizi için kullanıcının sağladığı **genel görünüm ve yakın detay olmak üzere iki farklı araç fotoğrafı** sunucuya yüklenir ve **Google Gemini görsel analiz hizmetine** gönderilir. Görseller uygulamada boyutlandırılıp yeniden JPEG oluşturularak aktarılır; bu işlem orijinal EXIF/GPS metadata bilgisini kaldırır. Ancak fotoğrafın üzerinde görünen kişiler, plakalar, adresler veya çevre ayrıntıları otomatik gizlenmez. Fotoğraflar inceleme geçmişi için saklanabilir. Güncel akışda eski YOLO/ML modeli yerine doğrudan Gemini analizi kullanılır.
+Hasar analizi için kullanıcının sağladığı **genel görünüm ve yakın detay olmak üzere iki farklı araç fotoğrafı** sunucuya yüklenir ve **Google Gemini görsel analiz hizmetine** gönderilir. Görseller uygulamada boyutlandırılıp yeniden JPEG oluşturularak aktarılır; bu işlem orijinal EXIF/GPS metadata bilgisini kaldırır. Ancak fotoğrafın üzerinde görünen kişiler, plakalar, adresler veya çevre ayrıntıları otomatik gizlenmez. Fotoğraflar inceleme geçmişi için saklanabilir. Güncel akışta eski YOLO/ML modeli yerine doğrudan Gemini analizi kullanılır.
 
 Tutanak oluşturulursa **olay tarihi/saati, şehir, isteğe bağlı ilçe ve olay adresi, olay açıklaması ve beyanda bulunan kişinin adı soyadı** kaydedilebilir. Araç kaydı, plaka ve kullanıcı notları kişisel bilgiler içerebilir.
 
